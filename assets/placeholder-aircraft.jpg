@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Aircraft placeholder">
+  <rect width="800" height="600" fill="#f4f7fb"></rect>
+  <g fill="#0B3D91" font-family="Arial, sans-serif" font-size="36">
+    <text x="40" y="320">Aircraft image</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Hero image">
+  <rect width="1600" height="900" fill="#e6eefc"></rect>
+  <g fill="#0B3D91" font-family="Arial, sans-serif" font-size="48">
+    <text x="80" y="220">SkyReach</text>
+  </g>
+  <g fill="#1453C7" font-family="Arial, sans-serif" font-size="28">
+    <text x="80" y="270">Precision training. Real community. Clear skies.</text>
+  </g>
+</svg>
