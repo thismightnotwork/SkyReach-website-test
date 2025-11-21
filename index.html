@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkyReach Virtual Airline</title>
+  <meta name="description" content="SkyReach Virtual Airline. Pilot training, community, flight logging and fleet management." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0B3D91">
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="SkyReach logo" class="brand-logo">
+        <span class="brand-text">SkyReach</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/pilot-hub.html" class="nav-link">Pilot Hub</a>
+        <a href="/academy.html" class="nav-link">Academy</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="/pilot-hub.html" class="button button-primary">Members</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <h1 class="hero-title">Precision training. Real community. Clear skies.</h1>
+        <p class="hero-sub">SkyReach is a community-driven virtual airline offering guided training, pilot tools, and a modern pilot hub that works in your browser.</p>
+
+        <div class="hero-ctas">
+          <a class="button button-primary" href="/pilot-hub.html">Enter Pilot Hub</a>
+          <a class="button button-ghost" href="/academy.html">Explore Academy</a>
+        </div>
+
+        <ul class="hero-features">
+          <li><strong>Flight logging</strong> — fast entries, exportable CSV</li>
+          <li><strong>Fleet management</strong> — register aircraft and assignments</li>
+          <li><strong>PWA ready</strong> — add to home screen and work offline</li>
+        </ul>
+      </div>
+
+      <figure class="hero-visual" aria-hidden="true">
+        <img src="/assets/hero.jpg" alt="" class="hero-image">
+      </figure>
+    </section>
+
+    <section class="cards container">
+      <article class="card">
+        <h3>Pilot Hub</h3>
+        <p>Member area with flight log, fleet tools and profile management. Client-side accounts keep everything private to you.</p>
+        <a href="/pilot-hub.html" class="card-link">Open Pilot Hub</a>
+      </article>
+
+      <article class="card">
+        <h3>SkyReach Academy</h3>
+        <p>Structured guides and checklists to train new pilots and prepare them for events.</p>
+        <a href="/academy.html" class="card-link">View Academy</a>
+      </article>
+
+      <article class="card">
+        <h3>Operations</h3>
+        <p>Clean fleet pages, flight planning resources and standard operating procedures you can host here.</p>
+        <a href="/about.html" class="card-link">Learn more</a>
+      </article>
+    </section>
+
+    <section class="callout container">
+      <div>
+        <h2>Ready to get airborne?</h2>
+        <p>Sign up in the Pilot Hub to begin logging flights and join our community events.</p>
+      </div>
+      <div>
+        <a href="/pilot-hub.html" class="button button-primary">Get started</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>SkyReach</strong>
+        <p class="muted">Virtual Airline • UK</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="/about.html">About</a>
+        <a href="/academy.html">Academy</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <div class="muted small">© <span id="year"></span> SkyReach Virtual Airline</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

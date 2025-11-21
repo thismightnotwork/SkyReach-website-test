@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — SkyReach</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page-about">
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="SkyReach logo" class="brand-logo">
+        <span class="brand-text">SkyReach</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link active">About</a>
+        <a href="/pilot-hub.html" class="nav-link">Pilot Hub</a>
+        <a href="/academy.html" class="nav-link">Academy</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="/pilot-hub.html" class="button button-primary">Members</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <article class="doc-article">
+      <h1>About SkyReach</h1>
+      <p>SkyReach provides a polished virtual airline experience with a focus on training, safe operations and community events. The site is intentionally lightweight and built to run entirely as static pages on GitHub Pages.</p>
+
+      <h2>Mission</h2>
+      <p>To give pilots a reliable, modern environment to learn, log and operate simulated flights while keeping data privacy in the pilot's control.</p>
+
+      <h2>What we provide</h2>
+      <ul>
+        <li>Onboarding and Academy content for new pilots</li>
+        <li>Browser-native Pilot Hub with flight logging and fleet tools</li>
+        <li>Event coordination and community resources</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="muted small">© <span id="year2"></span> SkyReach Virtual Airline</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear()</script>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

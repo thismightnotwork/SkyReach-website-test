@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Academy — SkyReach</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page-academy">
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" alt="SkyReach logo" class="brand-logo">
+        <span class="brand-text">SkyReach</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/pilot-hub.html" class="nav-link">Pilot Hub</a>
+        <a href="/academy.html" class="nav-link active">Academy</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="/pilot-hub.html" class="button button-primary">Members</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <h1>SkyReach Academy</h1>
+    <p class="muted">Concise training modules for new and returning pilots.</p>
+
+    <section class="cards">
+      <article class="card">
+        <h3>Beginner quickstart</h3>
+        <p>How to set up, begin your first flight and log it correctly.</p>
+        <a href="#" class="card-link">Open quickstart</a>
+      </article>
+
+      <article class="card">
+        <h3>Navigation basics</h3>
+        <p>Routes, airspace and how to read flight plans.</p>
+        <a href="#" class="card-link">Read guide</a>
+      </article>
+
+      <article class="card">
+        <h3>Standard procedures</h3>
+        <p>Best practices for dispatch and operations for SkyReach events.</p>
+        <a href="#" class="card-link">View SOPs</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="muted small">© <span id="year4"></span> SkyReach Virtual Airline</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year4').textContent = new Date().getFullYear()</script>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
